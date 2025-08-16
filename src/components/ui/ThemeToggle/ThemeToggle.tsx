@@ -2,9 +2,10 @@
 
 import React from 'react'
 import { useTheme } from '@/context/themeContext'
-import { Button } from '@/components/ui/Button'
-import { Dropdown } from '@/components/ui/Dropdown'
-import { MenuItem } from '@/components/ui/MenuItem'
+import Dropdown from '../Dropdown'
+import Button from '../Button'
+import MenuItem from '../MenuItem'
+
 
 export function ThemeToggle() {
   const { theme, setTheme, resolvedTheme } = useTheme()
